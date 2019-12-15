@@ -79,8 +79,37 @@ img {
     text-align: center;
 }
 
+.navegacion ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .navegacion {
+        flex: 0 0 25rem;
+    }
+    .navegacion ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem
+}
+
 .logo-img {
     max-width: 20rem;
+}
+
+.header-contenido h1 {
+    color: #008fd1;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    max-width: 25rem;
 }
 
 
