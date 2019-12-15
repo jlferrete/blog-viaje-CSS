@@ -62,6 +62,27 @@ img {
     padding: 1rem 0;
 }
 
+.barra .contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .barra .contenedor {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.logo,
+.navegacion {
+    text-align: center;
+}
+
+.logo-img {
+    max-width: 20rem;
+}
+
 
 /* Contenido */
 
